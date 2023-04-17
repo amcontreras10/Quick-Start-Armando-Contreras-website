@@ -1,4 +1,5 @@
 .container {
+    align-items: center;
     margin-left: 40px;
     margin-right: 40px;
     padding: 70px;
@@ -13,4 +14,28 @@ div {
 #cincypic {
     float: right;
     margin-left: 20px; 
+}
+
+.container p {
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+video {
+    margin-bottom: 20px;
+    margin-left: 160px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
