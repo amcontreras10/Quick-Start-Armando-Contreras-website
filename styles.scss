@@ -23,7 +23,7 @@
 
 //** Home page Carousel Sass**//
 
-$carousel-control-color:             $white;
+{ $carousel-control-color:             $white;
 $carousel-control-width:             15%;
 $carousel-control-opacity:           .5;
 $carousel-control-hover-opacity:     .9;
@@ -49,29 +49,4 @@ $carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://
 $carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
 
 $carousel-transition-duration:       .1s;
-$carousel-transition:                transform $carousel-transition-duration ease-in-out;  // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
-
-
-body {
-    font-family: 'Oleo Script Swash Caps';
-    margin: 0 auto;
-    width: 960 px;
-}
-
-footer {
-    margin: 40px 0;
-}
-
-footer nav a:link,
-footer nav a:visited {
-    color: gray;
-    text-decoration: none;
-    display: block;
-    width: 160px;
-    text-align: center;
-    background-color: white;
-}
-
-footer nav a:hover {
-    color: black;
-}
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; } //**Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`) **//
