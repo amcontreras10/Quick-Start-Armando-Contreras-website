@@ -31,49 +31,47 @@
                 </div>
               </nav>
         </header>
+
+
         <h1>Come Study with Armando!</h1>
     <aside>
         <figure>
             <img src="papageno.jpg" width="640" height="360">
         </figure>
     </aside>
+    <div>
     <form
     action="https://formspree.io/f/xzbqqdpy"
-    method="POST">
-        <fieldset>
-            <legend>Personal Information</legend>
-            Your Name <br>
-            <input type="text" name="name" required size="40">
-            <br> Email Address <br>
-            <input type="email" name="email" required placeholder="enter a valid email address" size="40">
-            <br>
-        </fieldset>
-        <fieldset>
-            <legend>Let's learn more about you!</legend>
-            A few questions before you join my studio<br>
-            <textarea name="preparation" cols="40" rows="6"></textarea>
-            <br><br>
-            <br>Have you studied privately before?<br>
-            <input type="radio" name="studio" value="yes"> yes <br>
-            <input type="radio" name="studio" value="no"> no <br>
-            <br>What voice type do you identify with?<br>
-            <input type="checkbox" name="voice" value="highvoice"> High voice<br>
-            <input type="checkbox" name="voice" value="lowoice"> Low voice<br>
-            <br>What type of lesson are you interested in?<br>
-            <select name="favorite">
-    <option value="time">please select a time</option>
-    <option value="20">20 minutes</option>
-    <option value="30">30 minutes</option>
-    <option value="45">45 minutes</option>
-    <option value="60">60 minutes</option>
-    <option value="70">70 minutes</option>
-            </select>
-        </fieldset>
-
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
-        </div>
+    method="POST" class="form-inline">
+    <div class="mb-3">
+      <label for="exampleInputName" class="form-label">First and Last Name</label>
+      <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+  </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Why do you want to take voice lessons?</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div>Enter Voice Type </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        High Voice
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+        Low Voice
+      </label>
+    </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    </div>
+    
         <footer>
             <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
