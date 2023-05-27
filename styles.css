@@ -1,18 +1,4 @@
-
-
-.photo-right {
-    align-content: center !important;
-}
-
-
-
-
-
-video {
-    margin-bottom: 20px !important;
-    margin-left: 160px !important;
-   
-}
+/* main CSS features */
 
 body {
     background-color:#0d6efd !important;
@@ -23,6 +9,42 @@ body {
     font-display: swap;
 }
 
+/* CSS for aboutme.html */
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* CSS for schedule.html */
+
+.photo-right {
+    align-content: center !important;
+}
+
+
+
+/* CSS for media.html */
+
+video {
+    margin-bottom: 20px !important;
+    margin-left: 160px !important;
+   
+}
+
+
+figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* CSS for studio.html */
+
 form {
     margin-left: 15%;
     margin-right: 15%
@@ -30,16 +52,4 @@ form {
 
  
 
-.img-fluid {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-}
 
-figcaption {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-}
