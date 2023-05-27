@@ -1,44 +1,66 @@
 .container {
-    align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 70px;
-    box-sizing: border-box;
+    align-items: center !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    padding: 70px !important;
+    box-sizing: border-box !important;
 }
 
 
-div {
-    display: block;
+.photo-right {
+    align-content: center !important;
 }
 
 #cincypic {
-    float: right;
-    margin-left: 20px; 
+    float: right !important;
+    margin-left: 20px !important; 
 }
 
 .container p {
-    text-align: center;
+    text-align: center !important;
 }
 
 td, th {
-    border: 1px solid black;
-    width: 20%;
-    text-align: center;
-    padding: 5px;
+    border: 1px solid black !important;
+    width: 20% !important;
+    text-align: center !important;
+    padding: 5px !important;
+}
+tr{
+    border: 1px solid black !important;
 }
 
 table {
-    border-collapse: collapse;
+    border-collapse: collapse !important;
 }
 
 video {
-    margin-bottom: 20px;
-    margin-left: 160px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
+    margin-bottom: 20px !important;
+    margin-left: 160px !important;
+   
 }
 
-header {
-    background-color:#3C7DA6 ;
+body {
+    background-color:#0d6efd !important;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+ 
+
+.img-fluid {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+figcaption {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 }
