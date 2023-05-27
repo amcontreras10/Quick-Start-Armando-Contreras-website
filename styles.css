@@ -20,8 +20,7 @@ div {
     text-align: center;
 }
 
-td,
-th {
+td, th {
     border: 1px solid black;
     width: 20%;
     text-align: center;
@@ -38,4 +37,8 @@ video {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+header {
+    background-color:#3C7DA6 ;
 }
