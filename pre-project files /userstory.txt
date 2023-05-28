@@ -1,0 +1,3 @@
+As a front-end web developer, I want to develop an opera singer's website so they can display their biography, media and contact info for future employers. 
+As a website developer, I want to make the opera singer's website easy and accessible so the employers get all the information they need to hire the opera singer. 
+As a developer, I want to make a website that is industry competitive and state of the art so the opera singer's website can stand-out amongst the thousands of opera singers auditioning for jobs. 
