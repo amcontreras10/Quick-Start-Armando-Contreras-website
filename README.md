@@ -53,14 +53,18 @@ b. Cleaning up files using .gitignore earlier in the process. I used .gitignore 
 
 c. Different fonts and backgrounds. For uniformity, I used one central font and one central background. In the future for nuance, you can impletement separate styles for separate pages. A lot of my styles.css folder was used as a uniform stylesheet for all pages on the website. 
 
-8. License
+9. License
 This project is not licensed 
 
-9. Contact 
-Armando Contreras - amcontreras10@gmail.com 
-Project Link- 
+10. Validation
+0 errors
+Proof: https://validator.w3.org/nu/?doc=https%3A%2F%2Famcontreras10.github.io%2F
 
-10. Acknowledgments
+11. Contact 
+Armando Contreras - amcontreras10@gmail.com 
+Project Link- https://amcontreras10.github.io
+
+12. Acknowledgments
 Quickstart Full-Stack Web Development BootCamp 
 Mentor- Masood Fareed- Masood.Fareed@quickstart.com
 
